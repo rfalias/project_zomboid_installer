@@ -12,9 +12,11 @@ Piping curl to bash is UNSAFE. READ THE CODE FIRST!
 
 
 # Usage
-Installs a PZ server for Ubuntu 20.x. Simply run sudo bash ./pz_ubuntu_installer.sh
+Installs a PZ server for Ubuntu 20.x. Simply run sudo bash ./pz_ubuntu_installer.sh -p somepass -u someuser
 
-By default, it will generate an admin password. Otherwise you can specify a password with pz_ubuntu_installer.sh -p MyPassword -u CustomUser
+By default, it will generate an admin password and create the 'steam' user. Otherwise you can specify a password with -p and a custom user with -u
+
+```pz_ubuntu_installer.sh -p MyPassword -u CustomUser```
 
 If you do not specify a user, it will create the 'steam' user for you.
 
