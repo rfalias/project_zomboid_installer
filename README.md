@@ -37,10 +37,12 @@ To safely disconnect with out interrupting the server, press CTRL + A then CTRL 
 # Scheduled reboots
 Scheduled reboots are common. As the root user, add an entry into crontab, (use the command crontab -e)
 
+Find your crontab time: https://crontab.guru
+
 Example server reset at midnight:
 
 ```
-0 * * * * systemctl restart Project-Zomboid
+0 0 * * * systemctl restart Project-Zomboid
 
 
 ```
