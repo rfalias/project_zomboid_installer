@@ -61,7 +61,7 @@ ExecStop=/usr/bin/screen -S pzserver -X quit
 WantedBy=multi-user.target
 Alias=pzserver
 EOF
-
+su - steam -c 'ln -s "/home/steam/.steam/steamapps/common/Project Zomboid Dedicated Server" /home/steam/pz_server'
 echo -e "$VAR" > /etc/systemd/system/Project-Zomboid.service
 echo -e "${RED}######## STOP! READ BELOW FIRST ########"
 echo -e "${GREEN}You must configure your server and sandbox settings first!"
