@@ -20,6 +20,11 @@ Once installed, you must configure your PZ server. See the wiki page for server 
 
 https://pzwiki.net/wiki/Dedicated_Server
 
+Once you configure your server options, you can start your server by running
+
+```
+sudo systemctl start Project-Zomboid
+```
 
 # Manage
 SSH to your server, and run:
