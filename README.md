@@ -1,5 +1,5 @@
 # project_zomboid_installer
-Install project zomboid server and systemd unit for Ubuntu 20.x
+Install the STEAM version Project Zomboid dedicated server and systemd unit for Ubuntu 20.x
 
 This was not tested on other distros. Some package deps may not work on older versions of ubuntu.
 
@@ -12,7 +12,7 @@ Piping curl to bash is UNSAFE. READ THE CODE FIRST!
 
 
 # Usage
-Installs a PZ server for ubuntu. Simply run sudo bash ./pz_ubuntu_installer.sh
+Installs a PZ server for Ubuntu 20.x. Simply run sudo bash ./pz_ubuntu_installer.sh
 
 By default, it will generate an admin password. Otherwise you can specify a password with pz_ubuntu_installer.sh -p MyPassword
 
@@ -40,7 +40,7 @@ Scheduled reboots are common. As the root user, add an entry into crontab, (use 
 Example server reset at midnight:
 
 ```
-* 0 0 0 0 systemctl restart Project-Zomboid
+0 * * * * systemctl restart Project-Zomboid
 
 
 ```
