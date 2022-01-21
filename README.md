@@ -41,6 +41,7 @@ Example server reset at midnight:
 * 0 0 0 0 systemctl restart Project-Zomboid
 
 
+```
+
 # Issues
 Report issues to the repo. This is a classic 'it works on my system'. I'll fix what I can.
-```
