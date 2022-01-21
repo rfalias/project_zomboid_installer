@@ -33,7 +33,7 @@ fi
 
 
 
-useradd -m steam
+useradd -m steam -s /bin/bash
 add-apt-repository multiverse
 dpkg --add-architecture i386
 apt update
