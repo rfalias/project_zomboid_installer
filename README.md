@@ -10,6 +10,7 @@ curl https://raw.githubusercontent.com/rfalias/project_zomboid_installer/main/pz
 ```
 Piping curl to bash is UNSAFE. READ THE CODE FIRST!
 
+This installer is intended to be idempotent, provided you pass arguments to it. Run it as many times as you need, during updates, cron jobs etc...
 
 # Usage
 Installs a PZ server for Ubuntu 20.x. Simply run sudo bash ./pz_ubuntu_installer.sh -p somepass -u someuser
