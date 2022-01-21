@@ -1,5 +1,7 @@
 # project_zomboid_installer
-Install project zomboid server and systemd unit for ubuntu
+Install project zomboid server and systemd unit for Ubuntu 20.x
+
+This was not tested on other distros. Some packaged deps may not work on older versions of ubuntu.
 
 To quickly and UNSAFELY install this, simply run
 
